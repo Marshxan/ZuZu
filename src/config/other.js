@@ -19,4 +19,5 @@ module.exports = {
     Other1: "",                                              // ${require("../config/other.js").Other1}
     Other2: "",                                              // ${require("../config/other.js").Other2}
     Bot_Invite: "",                  // ${require("../config/other.js").Bot_Invite}
+    Bot_Avatar: ""
     };
