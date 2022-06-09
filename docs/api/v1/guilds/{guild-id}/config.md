@@ -1,0 +1,1 @@
+# PATH - `/api/v1/guilds/{guild-id}/config`
