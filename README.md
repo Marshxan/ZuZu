@@ -1,12 +1,12 @@
-# ZuZu Discord Bot
+# BTMC Discord Bot
 
-ZuZu is a GeneralPurpose discord bot
+BTMC is a GeneralPurpose discord bot
 
-## Wanna make ZuZu your own?
+## Wanna make BTMC your own?
 Create a directory then copy the updater directory into it. So the tree looks like so:
 
 ```
-btmc_clone/
+ZuZu_clone/
   updater/
     runOnce.js
     autoRunUpdate.js
