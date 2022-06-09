@@ -1,0 +1,27 @@
+{
+  "name": "btmc-bot",
+  "version": "2.0.0",
+  "description": "Discord bot (btmc), can be found @ https://btmc.dev/",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon ."
+  },
+  "author": "BTMC Development Studio",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.4.1",
+    "discord-image-generation": "^1.4.13",
+    "discord.js": "^13.6.0",
+    "fs": "^0.0.1-security",
+    "get-github-code": "^1.0.4",
+    "https": "^1.0.0",
+    "minimist": "^1.2.6",
+    "moment": "^2.29.3",
+    "nekos.life": "^3.0.0",
+    "quick.db": "^7.1.3"
+  }
+}
