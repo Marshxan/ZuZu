@@ -1,4 +1,6 @@
-const fs = require('fs');
+// Currently Out Of Use Until We Shut Down BTMC
+
+/*const fs = require('fs');
 const https = require('https');
 
 let alwaysCheck = [
