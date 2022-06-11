@@ -3,7 +3,7 @@ const moment = require('moment');
 
 module.exports = async (client, guild) => {
   const owner = await client.users.fetch(guild.ownerId)
-    const channel = client.channels.cache.get('894977445017571408')
+    const channel = client.channels.cache.get(`${require("../config/other.js").Guild_logs1}`)
     const embed = new MessageEmbed()
       .setAuthor(`${client.user.username} | New Server`, client.user.avatarURL())
       .addField(`<:server:886748632165007401> Server`, `Name: \`${guild.name}\`\nID: \`${guild.id}\``)
