@@ -133,7 +133,9 @@ module.exports = (client) => {
     console.log(`${client.guilds.cache.size} servers`)
     console.log(`${client.users.cache.size} users`)
     /**/ console.log(``)
-    console.log(`Bot Made By: Marshy#1000`)
+    console.log(`Date Bot Created:`)
+    console.log(client.user.createdAt.toLocaleDateString("en-uk"))
+    /**/ console.log(``)
 
 
 
