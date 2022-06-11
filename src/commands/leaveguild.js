@@ -6,7 +6,7 @@ module.exports = {
     name: "leaveguild", // COMMAND NAME
     description: `Leaves a guild`, // COMMAND DESCRIPTION
     help_menu: {
-        display: true, // SHOWS IN HELP COMMAND (ANY MENU)
+        display: false, // SHOWS IN HELP COMMAND (ANY MENU)
         devlock: false, // ONLY SHOWS FOR DEVS (?)
         admincat: "mod", // ADMINISTRATOR CATEGORY (PART OF DEVLOCK)
         category: "other" // THE CATEGORY
