@@ -1,7 +1,7 @@
 module.exports = {
     Owner1: "931980616344416316",                            // ${require("../config/other.js").Owner1}
     OwnerName: "Marshy",                                     // ${require("../config/other.js").OwnerName}
-    Owner_Promo: "https://google.com",                       // ${require("../config/other.js").OwnerName}
+    Owner_Promo: "https://google.com",                       // ${require("../config/other.js").Owner_Promo}
     Bot_ID: "983816126460997662",                            // ${require("../config/other.js").Bot_ID}
     Date_Of_Birth: "07/06/2022",                             // ${require("../config/other.js").Date_Of_Birth}
     Top_GG_Link: "https://google.com",                       // ${require("../config/other.js").Top_GG_Link}
