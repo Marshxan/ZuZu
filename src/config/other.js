@@ -20,4 +20,5 @@ module.exports = {
     Other2: "",                                              // ${require("../config/other.js").Other2}
     Bot_Invite: "https://btmc.dev/ZuZuINV",                  // ${require("../config/other.js").Bot_Invite}
     Bot_Avatar: "https://cdn.discordapp.com/avatars/983816126460997662/5085fe475db74dea6c0b038ead65b2a5.png?size=1024",
-    };
+    Administrators: [module.exports.Owner1, '632541244035301376'], // Enter any other admins you want to have control of your bot.
+};
