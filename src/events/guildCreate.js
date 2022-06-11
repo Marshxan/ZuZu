@@ -4,7 +4,7 @@ const moment = require('moment');
 module.exports = async (client, guild) => {
   const owner = await client.users.fetch(guild.ownerId)
     const channel = client.channels.cache.get('894977445017571408')
-    const embed = new Discord.MessageEmbed()
+    const embed = new MessageEmbed()
       .setAuthor(`${client.user.username} | New Server`, client.user.avatarURL())
       .addField(`<:server:886748632165007401> Server`, `Name: \`${guild.name}\`\nID: \`${guild.id}\``)
       .addField(`<:crown:886748632152432640> Ownership`, `Name: \`${owner.tag}\`\nID: \`${guild.ownerID}\``)
@@ -13,5 +13,5 @@ module.exports = async (client, guild) => {
       .setColor('GREEN')
       .setTimestamp()
       .setFooter(`Total Guilds: ${client.guilds.cache.size}`)
-      channel.send(embed)
+      channel.send({embeds: [embed]})
 }
